@@ -1,0 +1,16 @@
+GIT: Software gestor de versiones+desarrollo colaborativo
+
+GITHUB: una pagina web que funciona como servidor
+
+PUSH DESDE VS CODE
+
+WEBPACK: determina que la aplicacion por default carga desde root/src/index.js
+
+ES6: import / export
+CommonJS: require 
+
+JSX: es una extension de js
+
+function foo(){}
+foo() === <foo/>
+foo() === <foo></foo>
