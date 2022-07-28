@@ -1,15 +1,18 @@
-import NavBar from "./NavBar"
+import Header from "./Header"
+import Footer from "./Footer"
+import ItemListContainer from "./ItemListContainer";
+
+
 
 function App() {
   return (
     <>
-      <NavBar/>
+      <Header />
       <main>
         <h2>Home</h2>
+        <ItemListContainer test={true} nombre="Maximiliano" />
       </main>
-      <footer>
-        <p>footer</p>
-      </footer>
+      <Footer />
     </>
   )
 }
