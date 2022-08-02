@@ -1,18 +1,19 @@
+import { useState } from "react"
 import Header from "./Header"
 import Footer from "./Footer"
-import ItemListContainer from "./ItemListContainer";
+import Main from "./Main";
 
 
 
-function App() {
+
+const App = () => {
+
+
   return (
     <>
-      <Header />
-      <main>
-        <h2>Home</h2>
-        <ItemListContainer test={true} nombre="Maximiliano" />
-      </main>
-      <Footer />
+      <Header  />
+      <Main uno={true} dos={1} tres={"Maximiliano"} />
+      <Footer  />
     </>
   )
 }

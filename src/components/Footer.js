@@ -1,4 +1,6 @@
-const Footer = () => {
+const Footer = ({ contador, nombre }) => {
+
+
     return (
         <footer>
             <p>footer</p>

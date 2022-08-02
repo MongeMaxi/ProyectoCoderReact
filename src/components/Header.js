@@ -3,12 +3,15 @@ import CartWidget from "./CartWidget"
 import Nav from "./Nav"
 
 
-function Header() {
+const Header = ({ contador }) => {
     return (
         <Container>
-            <h1 className="titulo">Ireland indumentaria</h1>
-            <CartWidget />
-            <Nav />
+            <header class="header">
+                <h1 className="header__titulo">Ireland indumentaria</h1>
+                <CartWidget />
+            </header>
+            <Nav type="header"
+            />
         </Container>
     )
 }

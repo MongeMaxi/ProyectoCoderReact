@@ -14,3 +14,44 @@ JSX: es una extension de js
 function foo(){}
 foo() === <foo/>
 foo() === <foo></foo>
+
+
+DESTRUCTURING: sacar vakires de un objeto o un array
+
+const obj ={propiedad:valor}
+const {propiedad} = obj
+
+ESTADO: son variables que se crean adentro de un componente y sirven para guardar informacion que si la 
+modificamos, se va a ver reflejada en el componente automaticamente.
+
+HOOK: son funciones que integran nuevas funcionalidades a un componente como por ejemplo tener
+estado, ciclos de vida, etc. (npmjs.com/package/react-hook-form)
+
+useState: hook que nos da un estado nuevo y un metodo para modificarlo
+y siempre da un array como resultado
+
+//1) seleccionar el boton
+//2) se agrega un click al boton
+3) aumentar variable contador
+4)seleccionar los dos textos
+5)texto.InnerText =""
+
+
+
+class App extends Component {
+    
+    constructor(props){
+        super(props)
+        this.state = {
+            propiedad:valor
+        }
+    }
+
+    render (){
+        return (
+            <div>
+            <h1>{this.state.propiedad}</h1>
+        )
+boton.addEventListener("click",()=>{})
+
+<button onClick={()=>{}}>Click</button>
