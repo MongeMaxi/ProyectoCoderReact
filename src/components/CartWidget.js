@@ -1,3 +1,5 @@
+import React from "react";
+
 const CartWidget = () => {
     return (
         <span class="header__image material-symbols-outlined">

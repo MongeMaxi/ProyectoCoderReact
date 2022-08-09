@@ -1,3 +1,4 @@
+import React from "react";
 import { Container, Button } from "react-bootstrap"
 import CartWidget from "./CartWidget"
 import Nav from "./Nav"

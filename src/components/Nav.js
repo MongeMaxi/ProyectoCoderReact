@@ -1,3 +1,5 @@
+import React from "react";
+
 const Nav = ({ type }) => {
   if (type == "header") {
     return (
