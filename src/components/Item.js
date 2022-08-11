@@ -1,6 +1,7 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import  {ItemDetail}  from "./ItemDetail";
 
 
 const Item = ({ product }) => {
@@ -19,8 +20,10 @@ const Item = ({ product }) => {
                     Stock: {product.stock}
                 </Card.Text>
                 <Button variant="primary">Agregar al Carrito</Button>
+                <ItemDetail/>
             </Card.Body>
-        </Card>
+            
+        </Card> 
     )
 }
 
