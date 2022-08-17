@@ -12,7 +12,7 @@ export const products=[
         price:1500,
         stock: 50,
         initial: 1,
-        description:"Remera oversize confeccionada en algodon pesado de excelente calidad",
+        description: "Remera oversize confeccionada en algodon pesado de excelente calidad",
         config:{
             color: ['rojo','azul','verde','negro','blanco'],
         }

@@ -1,16 +1,20 @@
 import React from "react";
 import ItemListContainer from "./ItemListContainer"
+import {Routes, Route} from "react-router-dom"
 import ItemDetailContainer from "./ItemDetailContainer"
+import Cart from "./Cart";
 
-const Main = ({ uno, dos, tres }) => {
-    console.log(uno)
-    console.log(dos)
-    console.log(tres)
+
+const Main = () => {
     return (
         <main>
-            <h2>Home</h2>
-            <ItemListContainer test={true} nombre="Maximiliano" />
-            
+            <Routes>
+                <Route path="/" element={<ItemListContainer/>}/>
+                <Route path="/detalle" element={<ItemDetailContainer/>}/>
+                <Route path="/Carrito" element={<Cart/>}/>
+                <Route path="/categoria/:category" element={<ItemListContainer/>}/>
+                
+            </Routes>
         </main>
     )
 }

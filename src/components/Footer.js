@@ -1,11 +1,13 @@
 import React from "react";
+import Nav from "./Nav"
 
-const Footer = ({ contador, nombre }) => {
+const Footer = () => {
 
 
     return (
-        <footer>
+        <footer className="footer">
             <p>footer</p>
+            <Nav/>
         </footer>
     )
 }
